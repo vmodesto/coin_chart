@@ -1,0 +1,12 @@
+<script src = "https://code.highcharts.com/highcharts.js" > </script>
+<script src = "https://code.highcharts.com/modules/series-label.js" > </script>
+<script src = "https://code.highcharts.com/modules/exporting.js" > </script>
+<h1>Price#index</h1>
+
+  <%= button_to "Dólar", price_index_path(), method: :get, action: "getData" %>
+  <%= button_to "Euro", price_index_path, method: :get %>
+  <%= button_to "Pesos Argentinos", price_index_path, method: :get %>
+
+  <div id = "container" style = "height: 400px;" > </div>
+    <%= javascript_pack_tag 'highcharts', 'data-turbolinks-track': 'reload' %>
+  </div>
