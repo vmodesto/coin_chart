@@ -35,17 +35,7 @@ Highcharts.chart('container', {
       }
   },
 
-  series: [{
-      name: 'Installation',
-      data: [43934, 52503, 57177, 69658, 97031, 119931, 137133]
-  }, {
-      name: 'Manufacturing',
-      data: [24916, 24064, 29742, 29851, 32490, 30282, 38121]
-  },{
-    name: 'Teste',
-    data: [28916, 30064, 29742, 29851, 32490, 30282, 100121]
-}
-],
+  series: [{name: "Teste", data: [12212, 1232323]}],
 
   responsive: {
       rules: [{
