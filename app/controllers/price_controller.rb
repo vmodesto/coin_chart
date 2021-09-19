@@ -2,7 +2,7 @@ class PriceController < ApplicationController
   before_action :set_dary, only: [:get_quote_of, :get_quote_last_seven_days]
 
   def index
-
+    @text = "Texto de teste"
   end
 
   def get_quote_of
